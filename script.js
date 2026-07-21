@@ -52,12 +52,13 @@ function observeReveals(root = document) {
 /* ─── Animated counters ─── */
 function animateCounter(el) {
   const target = parseInt(el.dataset.count, 10);
+  const suffix = el.dataset.suffix || "";
   const duration = 1400;
   const start = performance.now();
   function tick(now) {
     const progress = Math.min((now - start) / duration, 1);
     const eased = 1 - Math.pow(1 - progress, 3);
-    el.textContent = Math.round(eased * target).toLocaleString();
+    el.textContent = Math.round(eased * target).toLocaleString() + suffix;
     if (progress < 1) requestAnimationFrame(tick);
   }
   requestAnimationFrame(tick);
@@ -86,7 +87,7 @@ function renderStats() {
       (s) => `
     <div class="stat-card">
       <div class="stat-icon"><svg class="icon"><use href="#${s.icon}"/></svg></div>
-      <div class="stat-num" data-count="${s.num}">0</div>
+      <div class="stat-num" data-count="${s.num}" data-suffix="${s.suffix || ""}">0</div>
       <div class="stat-label">${s.label}</div>
     </div>`
     )

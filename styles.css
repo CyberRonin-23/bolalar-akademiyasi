@@ -313,8 +313,12 @@ h1, h2, h3, h4 {
 }
 .value-chip:hover { background: var(--taupe-15); border-color: var(--taupe-40); transform: translateY(-2px); }
 
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; }
+/* Flexbox, not grid, so a partial last row (7 stats = 4 + 3) stretches to
+   fill evenly instead of leaving a dead gap — see the highlights section
+   for the same fix and the fuller explanation. */
+.stats-grid { display: flex; flex-wrap: wrap; gap: 24px; }
 .stat-card {
+  flex: 1 1 220px;
   text-align: center; padding: 34px 20px; border-radius: var(--radius);
   background: #fff; border: 1px solid var(--navy-10);
   transition: transform .35s var(--ease), box-shadow .35s var(--ease);
@@ -674,7 +678,7 @@ h1, h2, h3, h4 {
 @media (max-width: 1024px) {
   .about-grid, .pochemuchka-grid { grid-template-columns: 1fr; }
   .about-photos { order: -1; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-card { flex-basis: calc(50% - 12px); }
   .photo-card { flex-basis: 100%; }
   .highlights-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
@@ -716,7 +720,7 @@ h1, h2, h3, h4 {
 
 @media (max-width: 768px) {
   .section { padding: 76px 0; }
-  .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .stat-card { flex-basis: calc(50% - 12px); }
   .highlights-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
   .spotlight-card { min-height: 300px; }
@@ -730,7 +734,7 @@ h1, h2, h3, h4 {
   .container { padding: 0 20px; }
   .hero-ctas { flex-direction: column; width: 100%; }
   .hero-ctas .btn { width: 100%; }
-  .stats-grid { grid-template-columns: 1fr 1fr; }
+  .stat-card { flex-basis: calc(50% - 8px); }
   .tabs-nav { gap: 8px; }
   .tab-btn { padding: 10px 16px; font-size: 13px; }
 }

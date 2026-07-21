@@ -257,10 +257,13 @@ const contentData = {
     values: ["Chuqur bilim", "Kuchli tarbiya", "Tanqidiy fikrlash", "Liderlik", "Mustaqillik", "Mas'uliyat", "Xorijiy tillarni mukammal o'rganish", "Zamonaviy texnologiyalar", "Etika", "Sog'lom turmush tarzi"],
 
     stats: [
-      { icon: "i-users", num: 20, label: "Sinfdagi maksimal o'quvchilar soni" },
-      { icon: "i-globe", num: 5, label: "O'qitiladigan xorijiy tillar" },
-      { icon: "i-cert", num: 12, label: "2025–2026 o'quv yilida CEFR B1/B2 sertifikati olganlar" },
-      { icon: "i-calendar", num: 5, label: "Faoliyat yillari (2021-yildan buyon)" },
+      { icon: "i-users", num: 400, label: "Nafar o'quvchi" },
+      { icon: "i-cert", num: 50, label: "Nafar malakali pedagog" },
+      { icon: "i-book", num: 15, label: "Ta fan" },
+      { icon: "i-globe", num: 5, label: "Ta xorijiy til" },
+      { icon: "i-spark", num: 20, suffix: "+", label: "Loyihalar" },
+      { icon: "i-target", num: 300, suffix: "%", label: "Rivojlanish ko'rsatkichi" },
+      { icon: "i-cert", num: 12, label: "Ingliz tili bo'yicha til bilish sertifikati olganlar" },
     ],
 
     ageTabs: [
@@ -356,10 +359,13 @@ const contentData = {
     values: ["Глубокие знания", "Крепкое воспитание", "Критическое мышление", "Лидерство", "Самостоятельность", "Ответственность", "Совершенное владение иностранными языками", "Современные технологии", "Этика", "Здоровый образ жизни"],
 
     stats: [
-      { icon: "i-users", num: 20, label: "Максимум учеников в классе" },
-      { icon: "i-globe", num: 5, label: "Иностранных языков в программе" },
-      { icon: "i-cert", num: 12, label: "Учеников получили сертификат CEFR B1/B2 в 2025–2026 уч. году" },
-      { icon: "i-calendar", num: 5, label: "Года работы (с 2021 года)" },
+      { icon: "i-users", num: 400, label: "Учеников" },
+      { icon: "i-cert", num: 50, label: "Квалифицированных педагогов" },
+      { icon: "i-book", num: 15, label: "Предметов" },
+      { icon: "i-globe", num: 5, label: "Иностранных языков" },
+      { icon: "i-spark", num: 20, suffix: "+", label: "Проектов" },
+      { icon: "i-target", num: 300, suffix: "%", label: "Показатель роста" },
+      { icon: "i-cert", num: 12, label: "Учеников получили сертификат по английскому языку" },
     ],
 
     ageTabs: [
@@ -455,10 +461,13 @@ const contentData = {
     values: ["Deep knowledge", "Strong upbringing", "Critical thinking", "Leadership", "Independence", "Responsibility", "Mastery of foreign languages", "Modern technology", "Ethics", "Healthy lifestyle"],
 
     stats: [
-      { icon: "i-users", num: 20, label: "Maximum students per class" },
+      { icon: "i-users", num: 400, label: "Students" },
+      { icon: "i-cert", num: 50, label: "Qualified teachers" },
+      { icon: "i-book", num: 15, label: "Subjects taught" },
       { icon: "i-globe", num: 5, label: "Foreign languages taught" },
-      { icon: "i-cert", num: 12, label: "Students earned CEFR B1/B2 certificates in 2025–2026" },
-      { icon: "i-calendar", num: 5, label: "Years in operation (since 2021)" },
+      { icon: "i-spark", num: 20, suffix: "+", label: "Projects" },
+      { icon: "i-target", num: 300, suffix: "%", label: "Growth indicator" },
+      { icon: "i-cert", num: 12, label: "Students earned an English language certificate" },
     ],
 
     ageTabs: [
