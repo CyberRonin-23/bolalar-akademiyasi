@@ -159,10 +159,17 @@ h1, h2, h3, h4 {
   line-height: 1.25; letter-spacing: .03em; color: var(--color-navy);
   white-space: nowrap;
 }
+/* Scoped to the header (not the footer, which reuses .nav-logo/.nav-logo-text
+   too) so the unscrolled icon + stacked text lockup matches the ~60px height
+   of the scrolled full-lockup logo below. */
+.nav .nav-logo { gap: 13px; }
+.nav .nav-logo-icon { width: 41px; }
+.nav .nav-logo-text { font-size: 14px; }
+
 /* Full lockup (crest + wordmark + motto) is navy/taupe on a white background —
    only legible once the nav has scrolled to its solid white state. Over the
    dark hero it stays hidden and the icon + stacked text pairing shows instead. */
-.nav-logo-full { display: none; height: 40px; width: auto; }
+.nav-logo-full { display: none; height: 60px; width: auto; }
 .nav.scrolled .nav-logo-icon,
 .nav.scrolled .nav-logo-text { display: none; }
 .nav.scrolled .nav-logo-full { display: block; }
@@ -445,19 +452,77 @@ h1, h2, h3, h4 {
 @keyframes successDraw { to { stroke-dashoffset: 0; } }
 .modal-success p { color: var(--navy-70); margin-bottom: 24px; }
 
-/* ─── Highlights ─── */
-.highlights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-bottom: 60px; }
-.highlight-card {
-  background: #fff; border: 1px solid var(--navy-10); border-radius: var(--radius);
-  padding: 28px; transition: transform .35s var(--ease), box-shadow .35s var(--ease);
-}
-.highlight-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -18px var(--navy-20); }
+/* ─── Highlights ───
+   Three distinct treatments instead of one uniform icon-card grid: a full-width
+   photo spotlight for the single best achievement, a pair of photo cards for
+   the more visual items, and compact icon cards for the factual/stat ones. */
 .highlight-icon {
   width: 46px; height: 46px; border-radius: 12px; background: var(--taupe-15); color: var(--color-taupe);
   display: flex; align-items: center; justify-content: center; margin-bottom: 16px;
 }
-.highlight-card h4 { font-size: 17px; margin-bottom: 8px; }
-.highlight-card p { font-size: 15px; color: var(--navy-70); margin: 0; }
+
+.highlights-spotlight { margin-bottom: 22px; }
+.spotlight-card {
+  position: relative; border-radius: var(--radius); overflow: hidden;
+  min-height: 360px; display: flex; align-items: flex-end;
+}
+.spotlight-photo { position: absolute; inset: 0; }
+.spotlight-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.spotlight-overlay {
+  position: absolute; inset: 0;
+  background: linear-gradient(100deg, rgba(35,42,71,.94) 0%, rgba(35,42,71,.8) 40%, rgba(35,42,71,.2) 100%);
+}
+.spotlight-content { position: relative; z-index: 1; padding: 44px; max-width: 560px; }
+.spotlight-icon { background: rgba(255,255,255,.16); color: var(--color-taupe); }
+.spotlight-content h4 { font-family: var(--font-display); font-size: 25px; color: #fff; margin-bottom: 10px; }
+.spotlight-content p { font-size: 15.5px; color: rgba(255,255,255,.85); margin: 0; }
+
+/* Flexbox, not grid: CSS Grid's column tracks are shared across every row, so
+   with 5 cards in 3 columns the last row's 2 cards would stay at 1/3 width
+   each with a dead gap beside them — grid has no per-row "fill" concept.
+   Flexbox's flex-grow resolves per line, so a short last row stretches to
+   fill it exactly like a full row does. */
+.highlights-photo-grid { display: flex; flex-wrap: wrap; gap: 22px; margin-bottom: 22px; }
+.photo-card {
+  flex: 1 1 320px;
+  background: #fff; border: 1px solid var(--navy-10); border-radius: var(--radius); overflow: hidden;
+  transition: transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.photo-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -18px var(--navy-20); }
+.photo-card-img { aspect-ratio: 16/9; overflow: hidden; }
+.photo-card-img img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.photo-card-body { padding: 24px 26px 28px; }
+.photo-card-body .highlight-icon {
+  margin-top: -46px; border: 3px solid #fff; background: var(--color-navy); color: #fff;
+  box-shadow: 0 6px 14px rgba(0,0,0,.15); position: relative;
+}
+.photo-card-body h4 { font-size: 18px; margin: 14px 0 8px; }
+.photo-card-body p { font-size: 15px; color: var(--navy-70); margin: 0; }
+
+.highlights-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; margin-bottom: 60px; }
+.highlight-card {
+  position: relative; overflow: hidden;
+  background: #fff; border: 1px solid var(--navy-10); border-bottom: 3px solid transparent; border-radius: var(--radius);
+  padding: 28px; transition: transform .35s var(--ease), box-shadow .35s var(--ease);
+}
+.highlight-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px -18px var(--navy-20); }
+.highlight-card h4 { font-size: 17px; margin-bottom: 8px; position: relative; }
+.highlight-card p { font-size: 15px; color: var(--navy-70); margin: 0; position: relative; }
+/* Small stipple-dot corner accent echoes the crest's dotted texture, and each
+   card cycles through a brand color instead of repeating the same taupe tint
+   three times in a row. */
+.highlight-card::after {
+  content: ''; position: absolute; top: -18px; right: -18px; width: 84px; height: 84px;
+  background-image: radial-gradient(currentColor 1.4px, transparent 1.4px);
+  background-size: 9px 9px; opacity: .18; pointer-events: none;
+}
+.highlight-card:nth-child(3n+1) { border-bottom-color: var(--color-taupe); color: var(--color-taupe); }
+.highlight-card:nth-child(3n+2) { border-bottom-color: var(--color-periwinkle); color: var(--color-periwinkle); }
+.highlight-card:nth-child(3n+3) { border-bottom-color: var(--color-navy); color: var(--color-navy); }
+.highlight-card:nth-child(3n+1) .highlight-icon { background: var(--taupe-15); color: var(--color-taupe); }
+.highlight-card:nth-child(3n+2) .highlight-icon { background: var(--peri-15); color: #5C6AA0; }
+.highlight-card:nth-child(3n+3) .highlight-icon { background: var(--navy-08); color: var(--color-navy); }
+.highlight-card .highlight-icon { border-radius: 50%; }
 
 .testimonials-block { text-align: center; }
 .testimonials-block h3 { font-size: 22px; margin-bottom: 30px; }
@@ -610,8 +675,10 @@ h1, h2, h3, h4 {
   .about-grid, .pochemuchka-grid { grid-template-columns: 1fr; }
   .about-photos { order: -1; }
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
+  .photo-card { flex-basis: 100%; }
   .highlights-grid { grid-template-columns: repeat(2, 1fr); }
   .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+  .spotlight-content { max-width: 100%; }
   .lead-form { grid-template-columns: 1fr; }
   .findus-grid { grid-template-columns: 1fr; }
   .footer-grid { grid-template-columns: 1fr 1fr; }
@@ -652,6 +719,9 @@ h1, h2, h3, h4 {
   .stats-grid { grid-template-columns: repeat(2, 1fr); }
   .highlights-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
+  .spotlight-card { min-height: 300px; }
+  .spotlight-content { padding: 28px; }
+  .spotlight-content h4 { font-size: 21px; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; }
   .modal { padding: 28px; }
 }

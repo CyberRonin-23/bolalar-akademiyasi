@@ -332,8 +332,43 @@ teamModal.addEventListener("click", (e) => { if (e.target === teamModal) closeTe
 
 /* ─── Highlights ─── */
 function renderHighlights() {
-  const grid = document.getElementById("highlightsGrid");
-  grid.innerHTML = contentData[currentLang].highlights
+  const all = contentData[currentLang].highlights;
+  const spotlight = all.filter((h) => h.type === "spotlight");
+  const photoCards = all.filter((h) => h.type === "photo");
+  const iconCards = all.filter((h) => h.type === "icon");
+
+  document.getElementById("highlightsSpotlight").innerHTML = spotlight
+    .map(
+      (h) => `
+    <div class="spotlight-card">
+      <div class="spotlight-photo"><img src="assets/photos/${h.photo}" alt="" loading="lazy"></div>
+      <div class="spotlight-overlay"></div>
+      <div class="spotlight-content">
+        <div class="highlight-icon spotlight-icon"><svg class="icon"><use href="#${h.icon}"/></svg></div>
+        <h4>${h.title}</h4>
+        <p>${h.desc}</p>
+      </div>
+    </div>`
+    )
+    .join("");
+
+  document.getElementById("highlightsPhotoGrid").innerHTML = photoCards
+    .map(
+      (h) => `
+    <div class="photo-card">
+      <div class="photo-card-img"><img src="assets/photos/${h.photo}" alt="" loading="lazy"></div>
+      <div class="photo-card-body">
+        <div class="highlight-icon"><svg class="icon"><use href="#${h.icon}"/></svg></div>
+        <h4>${h.title}</h4>
+        <p>${h.desc}</p>
+      </div>
+    </div>`
+    )
+    .join("");
+
+  const iconGrid = document.getElementById("highlightsGrid");
+  iconGrid.style.display = iconCards.length ? "" : "none";
+  iconGrid.innerHTML = iconCards
     .map(
       (h) => `
     <div class="highlight-card">

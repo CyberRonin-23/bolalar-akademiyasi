@@ -325,12 +325,12 @@ const contentData = {
     },
 
     highlights: [
-      { icon: "i-target", title: "Xalqaro musobaqalar", desc: "O'quvchilarimiz xalqaro fan olimpiadalari va respublika tanlovlarida muntazam ishtirok etadi. 2026-yil fevral oyida Qatarda o'tkazilgan xalqaro tanlovda qatnashdik." },
-      { icon: "i-cert", title: "CEFR sertifikatlari", desc: "2025–2026 o'quv yilida 3–4-sinfning 12 nafar o'quvchisi CEFR B1 va B2 xalqaro sertifikatlarini muvaffaqiyatli qo'lga kiritdi." },
-      { icon: "i-horse", title: "Sport va ijodiy yo'nalishlar", desc: "Dzyudo, gimnastika, shaxmat, ot sporti va kamondan o'q uzish, musiqa, tasviriy san'at, raqs, robototexnika va IT. Qashqadaryo viloyati Milliy gvardiyasi Chavandozlar maktabi bilan hamkorlikda amaliy mashg'ulotlar tashkil etiladi." },
-      { icon: "i-book", title: "Zamonaviy infratuzilma", desc: "Interaktiv panelli sinfxonalar, kutubxona, tibbiyot xonasi, zamonaviy laboratoriyalar, IT va musiqa xonalari. 2026–2027 o'quv yilida yangi uchinchi qavat ishga tushadi." },
-      { icon: "i-food", title: "Sog'lom ovqatlanish", desc: "Maktab oshxonasida 3 nafar tajribali oshpaz kuniga 4 mahal (nonushta, yengil tamaddi, tushlik, tamaddi) yangi va sog'lom taomlar tayyorlaydi." },
-      { icon: "i-shield", title: "Xavfsizlik", desc: "Face ID orqali kirish nazorati, doimiy qo'riqlash posti va xavfsiz avtoturargoh bilan ta'minlangan." },
+      { type: "spotlight", photo: "highlight-competition.jpg", icon: "i-target", title: "Xalqaro musobaqalar", desc: "O'quvchilarimiz xalqaro fan olimpiadalari va respublika tanlovlarida muntazam ishtirok etadi. 2026-yil fevral oyida Qatarda o'tkazilgan xalqaro tanlovda qatnashdik." },
+      { type: "photo", photo: "highlight-sports.jpg", icon: "i-horse", title: "Sport va ijodiy yo'nalishlar", desc: "Dzyudo, gimnastika, shaxmat, ot sporti va kamondan o'q uzish, musiqa, tasviriy san'at, raqs, robototexnika va IT. Qashqadaryo viloyati Milliy gvardiyasi Chavandozlar maktabi bilan hamkorlikda amaliy mashg'ulotlar tashkil etiladi." },
+      { type: "photo", photo: "highlight-library.jpg", icon: "i-book", title: "Zamonaviy infratuzilma", desc: "Interaktiv panelli sinfxonalar, kutubxona, tibbiyot xonasi, zamonaviy laboratoriyalar, IT va musiqa xonalari. 2026–2027 o'quv yilida yangi uchinchi qavat ishga tushadi." },
+      { type: "photo", photo: "highlight-cefr.jpg", icon: "i-cert", title: "CEFR sertifikatlari", desc: "2025–2026 o'quv yilida 3–4-sinfning 12 nafar o'quvchisi CEFR B1 va B2 xalqaro sertifikatlarini muvaffaqiyatli qo'lga kiritdi." },
+      { type: "photo", photo: "highlight-food.jpg", icon: "i-food", title: "Sog'lom ovqatlanish", desc: "Maktab oshxonasida 3 nafar tajribali oshpaz kuniga 4 mahal (nonushta, yengil tamaddi, tushlik, tamaddi) yangi va sog'lom taomlar tayyorlaydi." },
+      { type: "photo", photo: "highlight-safety.jpg", icon: "i-shield", title: "Xavfsizlik", desc: "Face ID orqali kirish nazorati, doimiy qo'riqlash posti va xavfsiz avtoturargoh bilan ta'minlangan." },
     ],
 
     faq: [
@@ -424,12 +424,12 @@ const contentData = {
     },
 
     highlights: [
-      { icon: "i-target", title: "Международные соревнования", desc: "Наши ученики регулярно участвуют в международных предметных олимпиадах и республиканских конкурсах. В феврале 2026 года приняли участие в международном конкурсе в Катаре." },
-      { icon: "i-cert", title: "Сертификаты CEFR", desc: "В 2025–2026 учебном году 12 учеников 3–4 классов успешно получили международные сертификаты CEFR B1 и B2." },
-      { icon: "i-horse", title: "Спорт и творческие направления", desc: "Дзюдо, гимнастика, шахматы, конный спорт и стрельба из лука, музыка, изобразительное искусство, танцы, робототехника и IT. Практические занятия проводятся в сотрудничестве со Школой всадников Национальной гвардии Кашкадарьинской области." },
-      { icon: "i-book", title: "Современная инфраструктура", desc: "Классы с интерактивными панелями, библиотека, медицинский кабинет, современные лаборатории, IT- и музыкальный кабинеты. В 2026–2027 учебном году откроется новый третий этаж." },
-      { icon: "i-food", title: "Здоровое питание", desc: "В школьной столовой 3 опытных повара готовят свежую и полезную еду 4 раза в день: завтрак, лёгкий перекус, обед и полдник." },
-      { icon: "i-shield", title: "Безопасность", desc: "Контроль доступа по Face ID, постоянный пост охраны и охраняемая парковка." },
+      { type: "spotlight", photo: "highlight-competition.jpg", icon: "i-target", title: "Международные соревнования", desc: "Наши ученики регулярно участвуют в международных предметных олимпиадах и республиканских конкурсах. В феврале 2026 года приняли участие в международном конкурсе в Катаре." },
+      { type: "photo", photo: "highlight-sports.jpg", icon: "i-horse", title: "Спорт и творческие направления", desc: "Дзюдо, гимнастика, шахматы, конный спорт и стрельба из лука, музыка, изобразительное искусство, танцы, робототехника и IT. Практические занятия проводятся в сотрудничестве со Школой всадников Национальной гвардии Кашкадарьинской области." },
+      { type: "photo", photo: "highlight-library.jpg", icon: "i-book", title: "Современная инфраструктура", desc: "Классы с интерактивными панелями, библиотека, медицинский кабинет, современные лаборатории, IT- и музыкальный кабинеты. В 2026–2027 учебном году откроется новый третий этаж." },
+      { type: "photo", photo: "highlight-cefr.jpg", icon: "i-cert", title: "Сертификаты CEFR", desc: "В 2025–2026 учебном году 12 учеников 3–4 классов успешно получили международные сертификаты CEFR B1 и B2." },
+      { type: "photo", photo: "highlight-food.jpg", icon: "i-food", title: "Здоровое питание", desc: "В школьной столовой 3 опытных повара готовят свежую и полезную еду 4 раза в день: завтрак, лёгкий перекус, обед и полдник." },
+      { type: "photo", photo: "highlight-safety.jpg", icon: "i-shield", title: "Безопасность", desc: "Контроль доступа по Face ID, постоянный пост охраны и охраняемая парковка." },
     ],
 
     faq: [
@@ -523,12 +523,12 @@ const contentData = {
     },
 
     highlights: [
-      { icon: "i-target", title: "International Competitions", desc: "Our students regularly take part in international subject olympiads and national contests. In February 2026 they competed in an international contest in Qatar." },
-      { icon: "i-cert", title: "CEFR Certificates", desc: "In the 2025–2026 school year, 12 students in grades 3–4 successfully earned international CEFR B1 and B2 certificates." },
-      { icon: "i-horse", title: "Sports & Creative Programs", desc: "Judo, gymnastics, chess, equestrian sport and archery, music, fine art, dance, robotics and IT. Practical sessions are held in partnership with the Qashqadaryo Region National Guard Cavalry School." },
-      { icon: "i-book", title: "Modern Infrastructure", desc: "Classrooms with interactive panels, a library, a medical room, modern laboratories, an IT room and a music room. A new third floor opens in the 2026–2027 school year." },
-      { icon: "i-food", title: "Healthy Nutrition", desc: "Three experienced chefs prepare fresh, healthy meals 4 times a day in the school canteen: breakfast, a light snack, lunch, and an afternoon snack." },
-      { icon: "i-shield", title: "Safety", desc: "Face ID access control, a continuous security post, and secure parking." },
+      { type: "spotlight", photo: "highlight-competition.jpg", icon: "i-target", title: "International Competitions", desc: "Our students regularly take part in international subject olympiads and national contests. In February 2026 they competed in an international contest in Qatar." },
+      { type: "photo", photo: "highlight-sports.jpg", icon: "i-horse", title: "Sports & Creative Programs", desc: "Judo, gymnastics, chess, equestrian sport and archery, music, fine art, dance, robotics and IT. Practical sessions are held in partnership with the Qashqadaryo Region National Guard Cavalry School." },
+      { type: "photo", photo: "highlight-library.jpg", icon: "i-book", title: "Modern Infrastructure", desc: "Classrooms with interactive panels, a library, a medical room, modern laboratories, an IT room and a music room. A new third floor opens in the 2026–2027 school year." },
+      { type: "photo", photo: "highlight-cefr.jpg", icon: "i-cert", title: "CEFR Certificates", desc: "In the 2025–2026 school year, 12 students in grades 3–4 successfully earned international CEFR B1 and B2 certificates." },
+      { type: "photo", photo: "highlight-food.jpg", icon: "i-food", title: "Healthy Nutrition", desc: "Three experienced chefs prepare fresh, healthy meals 4 times a day in the school canteen: breakfast, a light snack, lunch, and an afternoon snack." },
+      { type: "photo", photo: "highlight-safety.jpg", icon: "i-shield", title: "Safety", desc: "Face ID access control, a continuous security post, and secure parking." },
     ],
 
     faq: [
