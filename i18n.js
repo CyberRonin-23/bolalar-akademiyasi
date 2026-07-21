@@ -179,7 +179,7 @@ const translations = {
     "nav.findus": "Find Us",
     "nav.cta": "Register",
 
-    "hero.slogan": "There is no greater treasure<br>than a well-raised child.",
+    "hero.slogan": "There is no greater treasure<br>than a well-raised child",
     "hero.subline": "Bolalar Akademiyasi is a modern educational institution giving children quality education and strong upbringing.",
     "hero.cta1": "Register",
     "cta.call": "Call Us",
