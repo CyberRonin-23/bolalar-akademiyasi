@@ -15,7 +15,7 @@ const translations = {
     "nav.findus": "Manzillar",
     "nav.cta": "Ro'yxatdan o'tish",
 
-    "hero.slogan": "Tarbiyali farzandga<br>nima yetsin?",
+    "hero.slogan": "Zamonaviy bilim va<br>milliy qadriyatlar uyg'unligi",
     "hero.subline": "Bolalar Akademiyasi — bolalarga sifatli ta'lim va mustahkam tarbiya beradigan zamonaviy ta'lim maskani.",
     "hero.cta1": "Ro'yxatdan o'tish",
     "cta.call": "Qo'ng'iroq qilish",
@@ -26,7 +26,7 @@ const translations = {
     "about.p2": "Maktabning tashkil etilishidagi asosiy maqsad navbatdagi xususiy maktabni ochish emas, balki bolalarga sifatli ta'lim va mustahkam tarbiya beradigan zamonaviy ta'lim maskanini yaratish edi.",
     "about.p3": "Asoschilar bugungi kunda ham maktab faoliyatida faol ishtirok etib, ta'lim sifati, pedagoglar faoliyati hamda o'quvchilarning tarbiyasiga shaxsan e'tibor qaratadilar.",
     "about.mission.title": "Bizning maqsadimiz",
-    "about.mission.text": "Bolalar hayotining eng muhim davri uchun to'liq ta'lim ekotizimini yaratish — nafaqat bilim berish, balki mustaqil fikrlaydigan, odobli, mas'uliyatli, sog'lom shaxsni tarbiyalash.",
+    "about.mission.text": "3 yoshdan 30 yoshgacha bo'lgan davr uchun hamda bolalar hayotining eng muhim davri uchun to'liq ta'lim ekotizimini yaratish — nafaqat bilim berish, balki mustaqil fikrlaydigan, odobli, mas'uliyatli, sog'lom shaxsni tarbiyalash.",
 
     "approach.eyebrow": "Ta'lim yo'nalishi",
     "approach.title": "Har bir yosh uchun o'z yondashuvi",
@@ -79,7 +79,7 @@ const translations = {
     "findus.pochemuchka.name": "Pochemuchka",
     "findus.directions": "Yo'l ko'rsatish",
 
-    "footer.tagline": "Tarbiyali farzandga nima yetsin?",
+    "footer.tagline": "Zamonaviy bilim va milliy qadriyatlar uyg'unligi",
     "footer.navTitle": "Sahifa",
     "footer.contactTitle": "Aloqa",
     "footer.contactPending": "Manzil tez orada e'lon qilinadi. Hozircha qo'ng'iroq qiling yoki ariza qoldiring.",
@@ -97,7 +97,7 @@ const translations = {
     "nav.findus": "Адреса",
     "nav.cta": "Записаться",
 
-    "hero.slogan": "Нет ничего дороже<br>воспитанного ребёнка",
+    "hero.slogan": "Гармония современных знаний<br>и национальных ценностей",
     "hero.subline": "Bolalar Akademiyasi — современное учебное заведение, дающее детям качественное образование и крепкое воспитание.",
     "hero.cta1": "Записаться",
     "cta.call": "Позвонить",
@@ -108,7 +108,7 @@ const translations = {
     "about.p2": "Главной целью создания школы было не открытие ещё одной частной школы, а создание современного учебного заведения, дающего детям качественное образование и крепкое воспитание.",
     "about.p3": "Основатели и сегодня активно участвуют в жизни школы, лично уделяя внимание качеству образования, работе педагогов и воспитанию учеников.",
     "about.mission.title": "Наша миссия",
-    "about.mission.text": "Создать полноценную образовательную экосистему для самого важного периода жизни ребёнка — не только дать знания, но и воспитать самостоятельно мыслящую, воспитанную, ответственную и здоровую личность.",
+    "about.mission.text": "Создать полноценную образовательную экосистему от 3 лет и до 30 лет для самого важного периода жизни ребёнка — не только дать знания, но и воспитать самостоятельно мыслящую, воспитанную, ответственную и здоровую личность.",
 
     "approach.eyebrow": "Направления обучения",
     "approach.title": "Свой подход для каждого возраста",
@@ -161,7 +161,7 @@ const translations = {
     "findus.pochemuchka.name": "Почемучка",
     "findus.directions": "Проложить маршрут",
 
-    "footer.tagline": "Что нужно воспитанному ребёнку?",
+    "footer.tagline": "Гармония современных знаний и национальных ценностей",
     "footer.navTitle": "Разделы",
     "footer.contactTitle": "Контакты",
     "footer.contactPending": "Адрес скоро появится здесь. А пока позвоните нам или оставьте заявку.",
@@ -179,7 +179,7 @@ const translations = {
     "nav.findus": "Find Us",
     "nav.cta": "Register",
 
-    "hero.slogan": "There is no greater treasure<br>than a well-raised child",
+    "hero.slogan": "Harmony of modern knowledge<br>and national values",
     "hero.subline": "Bolalar Akademiyasi is a modern educational institution giving children quality education and strong upbringing.",
     "hero.cta1": "Register",
     "cta.call": "Call Us",
@@ -190,7 +190,7 @@ const translations = {
     "about.p2": "The founding goal was not to open yet another private school, but to create a modern educational institution that gives children quality education and strong upbringing.",
     "about.p3": "The founders remain actively involved in the school today, personally overseeing the quality of education, teacher performance, and student development.",
     "about.mission.title": "Our Mission",
-    "about.mission.text": "To build a complete educational ecosystem for the most important period of a child's life — not just imparting knowledge, but raising an independent-thinking, well-mannered, responsible and healthy individual.",
+    "about.mission.text": "To build a complete educational ecosystem from age 3 to 30, for the most important period of a child's life — not just imparting knowledge, but raising an independent-thinking, well-mannered, responsible and healthy individual.",
 
     "approach.eyebrow": "Our Approach",
     "approach.title": "A tailored approach for every age",
@@ -243,7 +243,7 @@ const translations = {
     "findus.pochemuchka.name": "Pochemuchka",
     "findus.directions": "Get Directions",
 
-    "footer.tagline": "What more could a well-raised child need?",
+    "footer.tagline": "Harmony of modern knowledge and national values",
     "footer.navTitle": "Sections",
     "footer.contactTitle": "Contact",
     "footer.contactPending": "Address coming soon. Call us or leave a request in the meantime.",
@@ -257,35 +257,37 @@ const contentData = {
     values: ["Chuqur bilim", "Kuchli tarbiya", "Tanqidiy fikrlash", "Liderlik", "Mustaqillik", "Mas'uliyat", "Xorijiy tillarni mukammal o'rganish", "Zamonaviy texnologiyalar", "Etika", "Sog'lom turmush tarzi"],
 
     stats: [
-      { icon: "i-users", num: 400, label: "Nafar o'quvchi" },
-      { icon: "i-cert", num: 50, label: "Nafar malakali pedagog" },
-      { icon: "i-book", num: 15, label: "Ta fan" },
-      { icon: "i-globe", num: 5, label: "Ta xorijiy til" },
-      { icon: "i-spark", num: 20, suffix: "+", label: "Loyihalar" },
-      { icon: "i-target", num: 300, suffix: "%", label: "Rivojlanish ko'rsatkichi" },
-      { icon: "i-cert", num: 12, label: "Ingliz tili bo'yicha til bilish sertifikati olganlar" },
+      { icon: "i-users", num: 400, suffix: "+", label: "Maktabdagi o'quvchilar soni" },
+      { icon: "i-cert", num: 400, suffix: "+", label: "Jamoadagi xodimlar soni" },
+      { icon: "i-globe", num: 5, label: "O'rganiladigan tillar" },
+      { icon: "i-calendar", num: 5, label: "Faoliyat yillari" },
+      { icon: "i-book", num: 200, suffix: "+", label: "Kutubxonadagi darsliklar" },
     ],
 
     ageTabs: [
       {
-        label: "4–5 yosh", heading: "Maktabgacha tayyorlov",
+        label: "3-4 yosh", heading: "Maktabgacha tayyorlov",
         subjects: ["Rus tili", "Ingliz tili", "Matematika", "O'qish", "Husnixat", "Mental arifmetika", "Etika"],
         extra: ["Logoped", "Massaj", "Dzyudo", "Gimnastika", "Musiqa", "Raqs"],
       },
       {
-        label: "6-7 yosh", heading: "6-7 yosh — bosqichlar orasidagi ko'prik",
+        label: "5-6 yosh", heading: "5-6 yosh — bosqichlar orasidagi ko'prik",
         subjects: ["Rus tili", "Ingliz tili", "Matematika asoslari", "O'qish va yozishga tayyorgarlik", "Husnixat", "Mental arifmetika", "Etika", "Atrofdagi dunyo bilan tanishuv"],
         approach: "Bu bosqich bola uchun tayyorlov davridan tizimli maktab hayotiga o'tish ko'prigi hisoblanadi — o'qish-yozish ko'nikmalari mustahkamlanadi, sinf tartib-intizomiga moslashuv boshlanadi, mustaqil fikrlash va e'tiborni jamlash ko'nikmalari rivojlantiriladi.",
       },
       {
         label: "1–4-sinf", heading: "Boshlang'ich ta'lim",
         subjects: ["Rus tili", "Ingliz tili", "Koreys tili", "Yapon tili", "Matematika", "Mental arifmetika", "Multilevel English", "Prezident maktabiga tayyorgarlik", "Etika"],
-        note: "2026–2027 o'quv yilidan boshlab: Xitoy tili, Robototexnika, Muhandislik va Notiqlik san'ati fanlari joriy etiladi.",
+        note: "Boshlang'ich sinfda biz keyingi o'rta va yuqori sinflar uchun mustahkam poydevor yaratamiz — bu davrda o'quvchilarga 5 til, chuqur matematik bilim, notiqlik san'ati va tadbirkorlik ko'nikmalari beriladi.",
       },
       {
         label: "5–9-sinf", heading: "Ixtisoslashuv bosqichi",
         specials: ["Tibbiyot", "Aviatsiya", "Huquq", "Ijtimoiy-gumanitar", "Biznes", "IT"],
         desc: "5-sinfdan boshlab har bir o'quvchi o'z qiziqishi va qobiliyatiga mos yo'nalishni tanlaydi. Bu tizim kelajak kasbini ongli ravishda tanlashga yordam beradi.",
+      },
+      {
+        label: "10-11-sinf", heading: "Yakuniy tayyorgarlik bosqichi",
+        desc: "10-11-sinf o'quvchilari IELTS, SAT kabi xalqaro sertifikatlarga va oliy ta'lim muassasalariga kirish imtihonlariga puxta tayyorlanadi.",
       },
     ],
 
@@ -359,35 +361,37 @@ const contentData = {
     values: ["Глубокие знания", "Крепкое воспитание", "Критическое мышление", "Лидерство", "Самостоятельность", "Ответственность", "Совершенное владение иностранными языками", "Современные технологии", "Этика", "Здоровый образ жизни"],
 
     stats: [
-      { icon: "i-users", num: 400, label: "Учеников" },
-      { icon: "i-cert", num: 50, label: "Квалифицированных педагогов" },
-      { icon: "i-book", num: 15, label: "Предметов" },
-      { icon: "i-globe", num: 5, label: "Иностранных языков" },
-      { icon: "i-spark", num: 20, suffix: "+", label: "Проектов" },
-      { icon: "i-target", num: 300, suffix: "%", label: "Показатель роста" },
-      { icon: "i-cert", num: 12, label: "Учеников получили сертификат по английскому языку" },
+      { icon: "i-users", num: 400, suffix: "+", label: "Учащихся в школе" },
+      { icon: "i-cert", num: 400, suffix: "+", label: "Человек в команде" },
+      { icon: "i-globe", num: 5, label: "Изучаемых языков" },
+      { icon: "i-calendar", num: 5, label: "Года работы" },
+      { icon: "i-book", num: 200, suffix: "+", label: "Учебников в библиотеке" },
     ],
 
     ageTabs: [
       {
-        label: "4–5 лет", heading: "Дошкольная подготовка",
+        label: "3-4 года", heading: "Дошкольная подготовка",
         subjects: ["Русский язык", "Английский язык", "Математика", "Чтение", "Чистописание", "Ментальная арифметика", "Этика"],
         extra: ["Логопед", "Массаж", "Дзюдо", "Гимнастика", "Музыка", "Танцы"],
       },
       {
-        label: "6-7 лет", heading: "6-7 лет — мост между этапами",
+        label: "5-6 лет", heading: "5-6 лет — мост между этапами",
         subjects: ["Русский язык", "Английский язык", "Основы математики", "Подготовка к чтению и письму", "Чистописание", "Ментальная арифметика", "Этика", "Ознакомление с окружающим миром"],
         approach: "Этот этап — это мост от подготовительного периода к системной школьной жизни: закрепляются навыки чтения и письма, начинается адаптация к дисциплине класса, развиваются самостоятельное мышление и концентрация внимания.",
       },
       {
         label: "1–4 классы", heading: "Начальное образование",
         subjects: ["Русский язык", "Английский язык", "Корейский язык", "Японский язык", "Математика", "Ментальная арифметика", "Multilevel English", "Подготовка к Президентской школе", "Этика"],
-        note: "С 2026–2027 учебного года вводятся: китайский язык, робототехника, инженерия и искусство риторики.",
+        note: "В начальной школе мы готовим фундамент к предстоящей средней и старшей школе, в этот период мы даём знания 5 языков, глубоких математических знаний, ораторского искусства и предприимчивости.",
       },
       {
         label: "5–9 классы", heading: "Этап специализации",
         specials: ["Медицина", "Авиация", "Право", "Социально-гуманитарное направление", "Бизнес", "IT"],
         desc: "Начиная с 5 класса каждый ученик выбирает направление, соответствующее его интересам и способностям. Эта система помогает осознанно выбрать будущую профессию.",
+      },
+      {
+        label: "10-11 классы", heading: "Этап финальной подготовки",
+        desc: "Подготовка к международным сертификатам, таким как IELTS, SAT и т.д., а также к вступительным экзаменам в высшие учебные заведения.",
       },
     ],
 
@@ -461,35 +465,37 @@ const contentData = {
     values: ["Deep knowledge", "Strong upbringing", "Critical thinking", "Leadership", "Independence", "Responsibility", "Mastery of foreign languages", "Modern technology", "Ethics", "Healthy lifestyle"],
 
     stats: [
-      { icon: "i-users", num: 400, label: "Students" },
-      { icon: "i-cert", num: 50, label: "Qualified teachers" },
-      { icon: "i-book", num: 15, label: "Subjects taught" },
-      { icon: "i-globe", num: 5, label: "Foreign languages taught" },
-      { icon: "i-spark", num: 20, suffix: "+", label: "Projects" },
-      { icon: "i-target", num: 300, suffix: "%", label: "Growth indicator" },
-      { icon: "i-cert", num: 12, label: "Students earned an English language certificate" },
+      { icon: "i-users", num: 400, suffix: "+", label: "Students in the school" },
+      { icon: "i-cert", num: 400, suffix: "+", label: "People on the team" },
+      { icon: "i-globe", num: 5, label: "Languages taught" },
+      { icon: "i-calendar", num: 5, label: "Years in operation" },
+      { icon: "i-book", num: 200, suffix: "+", label: "Textbooks in the library" },
     ],
 
     ageTabs: [
       {
-        label: "Ages 4–5", heading: "Pre-school Preparation",
+        label: "Ages 3-4", heading: "Pre-school Preparation",
         subjects: ["Russian", "English", "Mathematics", "Reading", "Handwriting", "Mental Arithmetic", "Ethics"],
         extra: ["Speech Therapist", "Massage", "Judo", "Gymnastics", "Music", "Dance"],
       },
       {
-        label: "Ages 6-7", heading: "Ages 6-7 — The Bridge Stage",
+        label: "Ages 5-6", heading: "Ages 5-6 — The Bridge Stage",
         subjects: ["Russian", "English", "Basics of Mathematics", "Reading & Writing Readiness", "Handwriting", "Mental Arithmetic", "Ethics", "World Around Us"],
         approach: "This stage is the bridge from preparatory learning to structured school life — reading and writing skills are reinforced, adaptation to classroom discipline begins, and independent thinking and focus are developed.",
       },
       {
         label: "Grades 1–4", heading: "Primary Education",
         subjects: ["Russian", "English", "Korean", "Japanese", "Mathematics", "Mental Arithmetic", "Multilevel English", "Presidential School Preparation", "Ethics"],
-        note: "Starting the 2026–2027 school year: Chinese, Robotics, Engineering and the Art of Public Speaking will be introduced.",
+        note: "In primary school we build the foundation for the middle and senior school years ahead — during this period, students gain knowledge of 5 languages, in-depth mathematics, the art of public speaking, and entrepreneurship.",
       },
       {
         label: "Grades 5–9", heading: "Specialization Stage",
         specials: ["Medicine", "Aviation", "Law", "Social & Humanities", "Business", "IT"],
         desc: "Starting in grade 5, each student chooses a track suited to their interests and abilities — helping them make an informed choice about their future career.",
+      },
+      {
+        label: "Grades 10-11", heading: "Final Preparation Stage",
+        desc: "Grade 10-11 students are thoroughly prepared for international certificates such as IELTS and SAT, as well as university entrance exams.",
       },
     ],
 

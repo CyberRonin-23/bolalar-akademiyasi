@@ -101,6 +101,7 @@ const TAB_PHOTOS = [
   "assets/photos/tab-primary.jpg",
   "assets/photos/tab-grade0.jpg",
   "assets/photos/tab-secondary.jpg",
+  "assets/photos/tab-final.jpg",
 ];
 function renderTabs() {
   const tabs = contentData[currentLang].ageTabs;
