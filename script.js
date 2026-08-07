@@ -493,7 +493,7 @@ leadForm.addEventListener("submit", async (e) => {
 
   leadSubmit.classList.add("loading");
   try {
-    const res = await fetch("/api/lead", {
+    const res = await fetch("https://crm.bolalar-akademiyasi.uz/api/public/leads", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ name, age, phone, lang: currentLang }),
