@@ -598,7 +598,7 @@ h1, h2, h3, h4 {
 .form-error { grid-column: 1 / -1; font-size: 14px; }
 
 /* ─── Find Us ─── */
-.findus-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 26px; }
+.findus-grid { display: grid; grid-template-columns: 1fr; gap: 26px; max-width: 500px; margin: 0 auto; }
 .findus-card {
   background: #fff; border: 1px solid var(--navy-10); border-radius: var(--radius); padding: 30px;
 }
