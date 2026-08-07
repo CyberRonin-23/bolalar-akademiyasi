@@ -258,10 +258,10 @@ const contentData = {
 
     stats: [
       { icon: "i-users", num: 400, suffix: "+", label: "Maktabdagi o'quvchilar soni" },
-      { icon: "i-cert", num: 400, suffix: "+", label: "Jamoadagi xodimlar soni" },
+      { icon: "i-briefcase", num: 50, suffix: "+", label: "Jamoadagi xodimlar soni" },
       { icon: "i-globe", num: 5, label: "O'rganiladigan tillar" },
       { icon: "i-calendar", num: 5, label: "Faoliyat yillari" },
-      { icon: "i-book", num: 200, suffix: "+", label: "Kutubxonadagi darsliklar" },
+      { icon: "i-book", num: 1000, suffix: "+", label: "Kutubxonadagi darsliklar" },
     ],
 
     ageTabs: [
@@ -362,10 +362,10 @@ const contentData = {
 
     stats: [
       { icon: "i-users", num: 400, suffix: "+", label: "Учащихся в школе" },
-      { icon: "i-cert", num: 400, suffix: "+", label: "Человек в команде" },
+      { icon: "i-briefcase", num: 50, suffix: "+", label: "Человек в команде" },
       { icon: "i-globe", num: 5, label: "Изучаемых языков" },
       { icon: "i-calendar", num: 5, label: "Года работы" },
-      { icon: "i-book", num: 200, suffix: "+", label: "Учебников в библиотеке" },
+      { icon: "i-book", num: 1000, suffix: "+", label: "Учебников в библиотеке" },
     ],
 
     ageTabs: [
@@ -466,10 +466,10 @@ const contentData = {
 
     stats: [
       { icon: "i-users", num: 400, suffix: "+", label: "Students in the school" },
-      { icon: "i-cert", num: 400, suffix: "+", label: "People on the team" },
+      { icon: "i-briefcase", num: 50, suffix: "+", label: "People on the team" },
       { icon: "i-globe", num: 5, label: "Languages taught" },
       { icon: "i-calendar", num: 5, label: "Years in operation" },
-      { icon: "i-book", num: 200, suffix: "+", label: "Textbooks in the library" },
+      { icon: "i-book", num: 1000, suffix: "+", label: "Textbooks in the library" },
     ],
 
     ageTabs: [
