@@ -135,9 +135,8 @@ h1, h2, h3, h4 {
   padding: 22px 0;
 }
 .nav.scrolled {
-  background: rgba(255,255,255,.92);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 24px -8px var(--navy-20);
+  background: #fff;
+  box-shadow: 0 2px 12px -6px var(--navy-20);
   padding: 12px 0;
 }
 .nav-inner {
@@ -169,7 +168,7 @@ h1, h2, h3, h4 {
 /* Full lockup (crest + wordmark + motto) is navy/taupe on a white background —
    only legible once the nav has scrolled to its solid white state. Over the
    dark hero it stays hidden and the icon + stacked text pairing shows instead. */
-.nav-logo-full { display: none; height: 60px; width: auto; }
+.nav-logo-full { display: none; height: auto; width: auto; max-height: 60px; max-width: 100%; object-fit: contain; }
 .nav.scrolled .nav-logo-icon,
 .nav.scrolled .nav-logo-text { display: none; }
 .nav.scrolled .nav-logo-full { display: block; }
