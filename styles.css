@@ -598,14 +598,17 @@ h1, h2, h3, h4 {
 .form-error { grid-column: 1 / -1; font-size: 14px; }
 
 /* ─── Find Us ─── */
-.findus-grid { display: grid; grid-template-columns: 1fr; gap: 26px; max-width: 760px; margin: 0 auto; }
+.findus-grid { display: grid; grid-template-columns: 1fr; gap: 26px; }
 .findus-card {
   background: #fff; border: 1px solid var(--navy-10); border-radius: var(--radius); padding: 30px;
 }
 .findus-card h3 { font-size: 20px; margin-bottom: 16px; }
+.findus-card-wide { max-width: 1100px; margin: 0 auto; width: 100%; }
+.findus-card-split { display: grid; grid-template-columns: 1.15fr 1fr; gap: 40px; align-items: center; }
+.findus-info { display: flex; flex-direction: column; }
 .findus-map {
   aspect-ratio: 16/9; border-radius: var(--radius-sm); overflow: hidden;
-  border: 1px solid var(--navy-10); margin-bottom: 20px;
+  border: 1px solid var(--navy-10); margin-bottom: 0;
 }
 .findus-map iframe { width: 100%; height: 100%; border: 0; display: block; }
 .findus-phone {
@@ -621,6 +624,10 @@ h1, h2, h3, h4 {
 }
 .findus-address .icon { color: var(--color-taupe); width: 1.2em; height: 1.2em; flex-shrink: 0; margin-top: 2px; }
 .findus-orientir { margin: 0 0 18px 30px; font-size: 13px; color: var(--navy-70); }
+.findus-info .btn { align-self: flex-start; }
+@media (max-width: 720px) {
+  .findus-card-split { grid-template-columns: 1fr; gap: 20px; }
+}
 
 /* ─── Footer ─── */
 .footer { background: var(--color-navy); color: rgba(255,255,255,.85); padding: 70px 0 0; }
