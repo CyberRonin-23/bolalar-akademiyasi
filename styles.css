@@ -598,7 +598,7 @@ h1, h2, h3, h4 {
 .form-error { grid-column: 1 / -1; font-size: 14px; }
 
 /* ─── Find Us ─── */
-.findus-grid { display: grid; grid-template-columns: 1fr; gap: 26px; max-width: 500px; margin: 0 auto; }
+.findus-grid { display: grid; grid-template-columns: 1fr; gap: 26px; max-width: 760px; margin: 0 auto; }
 .findus-card {
   background: #fff; border: 1px solid var(--navy-10); border-radius: var(--radius); padding: 30px;
 }
@@ -615,6 +615,12 @@ h1, h2, h3, h4 {
 }
 .findus-phone .icon { color: var(--color-taupe); width: 1.2em; height: 1.2em; }
 .findus-phone:hover { color: var(--color-taupe); }
+.findus-address {
+  display: flex; align-items: flex-start; gap: 10px; margin-bottom: 6px;
+  font-family: var(--font-ui); font-weight: 600; font-size: 15px; color: var(--color-navy);
+}
+.findus-address .icon { color: var(--color-taupe); width: 1.2em; height: 1.2em; flex-shrink: 0; margin-top: 2px; }
+.findus-orientir { margin: 0 0 18px 30px; font-size: 13px; color: var(--navy-70); }
 
 /* ─── Footer ─── */
 .footer { background: var(--color-navy); color: rgba(255,255,255,.85); padding: 70px 0 0; }
