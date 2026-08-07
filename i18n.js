@@ -29,7 +29,7 @@ const translations = {
     "about.mission.text": "3 yoshdan 30 yoshgacha bo'lgan davr uchun hamda bolalar hayotining eng muhim davri uchun to'liq ta'lim ekotizimini yaratish — nafaqat bilim berish, balki mustaqil fikrlaydigan, odobli, mas'uliyatli, sog'lom shaxsni tarbiyalash.",
 
     "approach.eyebrow": "Ta'lim yo'nalishi",
-    "approach.title": "Har bir yosh uchun o'z yondashuvi",
+    "approach.title": "Har bir yosh uchun o'ziga xos yondashuv",
     "approach.lead": "Bolalar Akademiyasida ta'lim rus tilida olib boriladi, har bir sinfda maksimal 20 nafar o'quvchi va assistent pedagog biriktiriladi.",
     "approach.subjectsLabel": "Fanlar",
     "approach.extraLabel": "Qo'shimcha mashg'ulotlar",
