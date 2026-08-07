@@ -466,16 +466,18 @@ h1, h2, h3, h4 {
 
 .highlights-spotlight { margin-bottom: 22px; }
 .spotlight-card {
+  /* Height comes from the photo itself (width:100%; height:auto below) so the
+     full image always shows — no object-fit:cover cropping. Overlay/content
+     sit on top via absolute positioning against this relative container. */
   position: relative; border-radius: var(--radius); overflow: hidden;
-  min-height: 360px; display: flex; align-items: flex-end;
 }
-.spotlight-photo { position: absolute; inset: 0; }
-.spotlight-photo img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.spotlight-photo { width: 100%; line-height: 0; }
+.spotlight-photo img { width: 100%; height: auto; display: block; }
 .spotlight-overlay {
   position: absolute; inset: 0;
   background: linear-gradient(100deg, rgba(35,42,71,.94) 0%, rgba(35,42,71,.8) 40%, rgba(35,42,71,.2) 100%);
 }
-.spotlight-content { position: relative; z-index: 1; padding: 44px; max-width: 560px; }
+.spotlight-content { position: absolute; left: 0; bottom: 0; z-index: 1; padding: 44px; max-width: 560px; }
 .spotlight-icon { background: rgba(255,255,255,.16); color: var(--color-taupe); }
 .spotlight-content h4 { font-family: var(--font-display); font-size: 25px; color: #fff; margin-bottom: 10px; }
 .spotlight-content p { font-size: 15.5px; color: rgba(255,255,255,.85); margin: 0; }
@@ -735,7 +737,6 @@ h1, h2, h3, h4 {
   .stat-card { flex-basis: calc(50% - 12px); }
   .highlights-grid { grid-template-columns: 1fr; }
   .testimonials-grid { grid-template-columns: 1fr; }
-  .spotlight-card { min-height: 300px; }
   .spotlight-content { padding: 28px; }
   .spotlight-content h4 { font-size: 21px; }
   .footer-grid { grid-template-columns: 1fr; gap: 30px; }
