@@ -344,7 +344,6 @@ function renderHighlights() {
       (h) => `
     <div class="spotlight-card">
       <div class="spotlight-photo"><img src="assets/photos/${h.photo}" alt="" loading="lazy"></div>
-      <div class="spotlight-overlay"></div>
       <div class="spotlight-content">
         <div class="highlight-icon spotlight-icon"><svg class="icon"><use href="#${h.icon}"/></svg></div>
         <h4>${h.title}</h4>
