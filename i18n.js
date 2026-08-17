@@ -293,8 +293,9 @@ const contentData = {
 
     team: {
       founders: [
-        { name: "Javlon Jaxongirovich", role: "Asoschi, oliy toifali pedagog", bio: "Uzoq yillar davomida ta'lim sohasida faoliyat yuritgan pedagog. Bugungi kunda ham maktab faoliyatida faol ishtirok etib, ta'lim sifati va o'quvchilar tarbiyasiga shaxsan e'tibor qaratadi.", placeholder: false },
+        { name: "Javlon Jaxongirovich", role: "Hammuassis va maktab direktori", bio: "Uzoq yillar davomida ta'lim sohasida faoliyat yuritgan pedagog. Bugungi kunda ham maktab faoliyatida faol ishtirok etib, ta'lim sifati va o'quvchilar tarbiyasiga shaxsan e'tibor qaratadi.", placeholder: false },
         { name: "Asal Shuxratovna", role: "Asoschi, oliy toifali pedagog", bio: "Uzoq yillar davomida ta'lim sohasida faoliyat yuritgan pedagog. Bugungi kunda ham maktab faoliyatida faol ishtirok etib, ta'lim sifati va o'quvchilar tarbiyasiga shaxsan e'tibor qaratadi.", placeholder: false },
+        { name: "Nigora Tursunova", role: "Sifat nazorati direktori", bio: "Maktabda ta'lim sifati nazorati va monitoringi bo'yicha mas'ul. Har bir dars va pedagogik jarayonning belgilangan standartlarga mos kelishini ta'minlaydi.", placeholder: false },
       ],
       categories: [
         {
@@ -398,8 +399,9 @@ const contentData = {
 
     team: {
       founders: [
-        { name: "Жавлон Жахонгирович", role: "Основатель, педагог высшей категории", bio: "Педагог с многолетним опытом работы в сфере образования. По сей день активно участвует в жизни школы, лично уделяя внимание качеству образования и воспитанию учеников.", placeholder: false },
+        { name: "Жавлон Жахонгирович", role: "Соучредитель и директор школы", bio: "Педагог с многолетним опытом работы в сфере образования. По сей день активно участвует в жизни школы, лично уделяя внимание качеству образования и воспитанию учеников.", placeholder: false },
         { name: "Асал Шухратовна", role: "Основатель, педагог высшей категории", bio: "Педагог с многолетним опытом работы в сфере образования. По сей день активно участвует в жизни школы, лично уделяя внимание качеству образования и воспитанию учеников.", placeholder: false },
+        { name: "Нигора Турсунова", role: "Директор по контролю качества", bio: "Отвечает за контроль качества образования и мониторинг в школе. Обеспечивает соответствие каждого урока и педагогического процесса установленным стандартам.", placeholder: false },
       ],
       categories: [
         {
@@ -503,8 +505,9 @@ const contentData = {
 
     team: {
       founders: [
-        { name: "Javlon Jaxongirovich", role: "Founder, Top-category Educator", bio: "An educator with many years of experience in the field. To this day he remains actively involved in the school, personally overseeing education quality and student development.", placeholder: false },
+        { name: "Javlon Jaxongirovich", role: "Co-founder & School Director", bio: "An educator with many years of experience in the field. To this day he remains actively involved in the school, personally overseeing education quality and student development.", placeholder: false },
         { name: "Asal Shuxratovna", role: "Founder, Top-category Educator", bio: "An educator with many years of experience in the field. She remains actively involved in the school today, personally overseeing education quality and student development.", placeholder: false },
+        { name: "Nigora Tursunova", role: "Quality Inspection Director", bio: "Responsible for education quality control and monitoring at the school. Ensures every lesson and pedagogical process meets established standards.", placeholder: false },
       ],
       categories: [
         {
